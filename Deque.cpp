@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<deque>
 using namespace std;
 int main(){
 
@@ -38,5 +39,5 @@ int main(){
     for(int i: d){
         cout<<i<<" ";
     }
-    
+
 }
