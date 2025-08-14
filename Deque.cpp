@@ -6,6 +6,7 @@ int main(){
     // It’s like a vector but with better support for adding/removing elements at the front.
     deque<int>d;
 
+    // Push Element
     d.push_back(1);
     d.push_front(2);
     d.push_front(3);
