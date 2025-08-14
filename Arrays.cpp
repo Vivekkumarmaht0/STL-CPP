@@ -6,7 +6,7 @@ int main(){
     int basic[3] = {1, 2, 3};
 
     array<int,4> A = {1, 2, 3, 4};
-    int size = A.size();
+    int size = A.size();  // Size
 
     for(int i=0; i<size; i++){
         cout<<A[i]<<endl;
