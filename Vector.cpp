@@ -5,8 +5,8 @@ int main(){
     // Vector Array of default size
     vector<int>A;
 
-    // Vector Array of size 5 and filled with 0
-    vector<int>Arr(5,0);
+    // Vector Array of size 5 and filled with 1
+    vector<int>Arr(5,1);
 
     cout<< "Print Arr: ";
     for(int i: Arr){
