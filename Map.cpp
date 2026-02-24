@@ -51,4 +51,15 @@ int main(){
     }    
 
 
+    int arr[] = {1, 2, 2, 3, 1, 4};
+    map<int, int> freq;
+
+    for(int i : arr) {
+        freq[i]++;
+    }
+
+    for(auto x : freq) {
+        cout << x.first << " appears " << x.second << " times\n";
+    }
+
 }
